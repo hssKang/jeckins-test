@@ -6,7 +6,7 @@ pipeline{
                 sh "./gradlew compileJava"
             }
         }
-        strage("Build"){
+        stage("Build"){
             steps {
                 sh "./gradlew build"
             }
